@@ -1,0 +1,84 @@
+body {
+	background-image: url("https://opengameart.org/sites/default/files/styles/medium/public/screenshot_tileset.png");
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+#titre{
+	background-color: green;	
+}		
+
+#monstreEtHero{
+	display: grid;
+  width: 1000px;
+  grid-template-columns: 1000px 120px 120px;
+  align-items: start;
+  justify-content: space-between;
+}
+
+#hero{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	margin: 20px;
+}
+
+#statHeroEtMonstre{
+	background-color: green;
+	display: grid;
+  width: 2170px;
+  grid-template-columns: 0px 120px 120px;
+  align-items: start;
+  justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+#action{
+	background-color: green;
+	width: 100px;
+	border: 10px solid black;
+	padding: 10px;
+
+}
+
+#statHero{
+	display: grid;
+  width: 1000px;
+  grid-template-columns: 0px 340px 400px;
+  align-items: start;
+  justify-content: space-between;
+}
+
+#G{
+background-color: green;
+width: 100px;
+border: 5px solid black;
+padding: 10px;
+}
+
+#D{
+	background-color: green;
+	width: 100px;
+	border: 5px solid black;
+	padding: 10px;
+	}
+
+#C{
+background-color: green;
+width: 100px;
+border: 5px solid black;
+padding: 10px;
+}
+
+#S{
+	background-color: green;
+	width: 100px;
+	border: 5px solid black;
+	padding: 10px;
+	}
